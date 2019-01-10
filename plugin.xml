@@ -19,6 +19,6 @@
 
         <framework src="src/ios/Rainforest.framework" custom="true" embed="true"/>
 
-        <hook type="after_build" src="src/hooks/addEmbedded.js" />
+        <hook type="before_build" src="src/hooks/addEmbedded.js" />
     </platform>
 </plugin>
